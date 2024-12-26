@@ -1,157 +1,185 @@
----
-layout: default
-title: Vasudev Sharma - ML Researcher & Software Engineer
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasudev Sharma - ML Researcher & Engineer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <div class="logo">VS</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-<div class="hero-section" markdown="1">
-  <div class="hero-content" markdown="1">
-  # Vasudev Sharma
-  {: .hero-title}
+    <div class="cursor-glow"></div>
 
-  ### ML Researcher & Software Engineer
-  {: .hero-subtitle}
+    <header class="hero">
+        <div class="glowing-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="glitch" data-text="Vasudev Sharma">Vasudev Sharma</h1>
+            <div class="typing-container">
+                <span id="typing-text"></span>
+                <span class="cursor"></span>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </header>
 
-  > Transforming complex data into intelligent solutions
-  {: .hero-tagline}
+    <main>
+        <section id="about" class="about-section">
+            <div class="section-grid">
+                <div class="about-content">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="gradient-text">ML Researcher & Software Engineer</p>
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <span class="stat-number">4.3</span>
+                            <span class="stat-label">CGPA</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">96%</span>
+                            <span class="stat-label">ML Score</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">86%</span>
+                            <span class="stat-label">AI Accuracy</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="floating-badge">MSc @ Concordia</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  [View Research](#research){: .hero-button} [Connect](#connect){: .hero-button}
-  </div>
-</div>
+        <section id="research" class="research-section">
+            <h2 class="section-title">Research Experience</h2>
+            <div class="research-grid">
+                <div class="research-card" data-tilt>
+                    <div class="card-icon"><i class="fas fa-brain"></i></div>
+                    <h3>Multimodal Image Analysis</h3>
+                    <p>Fine-tuned vision-language models for enhanced histopathology analysis</p>
+                    <ul class="tech-tags">
+                        <li>PyTorch</li>
+                        <li>DINO</li>
+                        <li>Transformers</li>
+                    </ul>
+                </div>
+                <div class="research-card" data-tilt>
+                    <div class="card-icon"><i class="fas fa-microscope"></i></div>
+                    <h3>Cancer Screening AI</h3>
+                    <p>86% accuracy in colorectal carcinoma diagnosis using self-supervised learning</p>
+                    <ul class="tech-tags">
+                        <li>Deep Learning</li>
+                        <li>Computer Vision</li>
+                        <li>Medical AI</li>
+                    </ul>
+                </div>
+                <div class="research-card" data-tilt>
+                    <div class="card-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Image Synthesis</h3>
+                    <p>Conditional GAN with self-attention for high-quality image generation</p>
+                    <ul class="tech-tags">
+                        <li>GANs</li>
+                        <li>Neural Networks</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-<div class="content-section" markdown="1">
-## Research Experience 🔬
-{: .section-title}
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Machine Learning</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span class="skill-name">PyTorch</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">TensorFlow</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <span class="skill-name">Computer Vision</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- More skill categories... -->
+            </div>
+        </section>
 
-<div class="card-grid" markdown="1">
-<div class="feature-card" markdown="1">
-### Multimodal Image Analysis
-{: .card-title}
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Histopathology Analysis</h3>
+                        <p>Advanced image analysis using vision-language models</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- More timeline items... -->
+            </div>
+        </section>
 
-🏥 Atlas Analytics Lab
-{: .card-subtitle}
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-grid">
+                <a href="https://linkedin.com/in/vasudev-sharma-341171256" class="contact-card" data-tilt>
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/Vasudev-Sharma-13" class="contact-card" data-tilt>
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:vsharma13.1998@gmail.com" class="contact-card" data-tilt>
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </section>
+    </main>
 
-- Fine-tuned vision-language models
-- Enhanced computational efficiency
-- Advanced histopathology analysis
-{: .card-list}
-</div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2024 Vasudev Sharma</p>
+        </div>
+    </footer>
 
-<div class="feature-card" markdown="1">
-### Cancer Screening AI
-{: .card-title}
-
-🤖 Kingston General Hospital
-{: .card-subtitle}
-
-- 86% accuracy in detection
-- Self-supervised learning (DINO)
-- Improved diagnosis efficiency
-{: .card-list}
-</div>
-
-<div class="feature-card" markdown="1">
-### Image Synthesis
-{: .card-title}
-
-🎨 Advanced GANs
-{: .card-subtitle}
-
-- Conditional GAN architecture
-- MSE score of 3.79
-- 166,665 image dataset
-{: .card-list}
-</div>
-</div>
-
-## Technical Arsenal ⚡
-{: .section-title}
-
-<div class="skills-section" markdown="1">
-<div class="skills-card" markdown="1">
-### Machine Learning
-{: .skills-title}
-
-![ML Skills](https://skillicons.dev/icons?i=pytorch,tensorflow)
-{: .skills-icons}
-
-- PyTorch & TensorFlow
-- Hugging Face & MLFlow
-- Computer Vision & GANs
-{: .skills-list}
-</div>
-
-<div class="skills-card" markdown="1">
-### Development
-{: .skills-title}
-
-![Dev Skills](https://skillicons.dev/icons?i=python,cpp,java)
-{: .skills-icons}
-
-- Python, C++, Java
-- Docker & AWS
-- SLURM & Linux
-{: .skills-list}
-</div>
-
-<div class="skills-card" markdown="1">
-### Data Science
-{: .skills-title}
-
-![Data Skills](https://skillicons.dev/icons?i=numpy,pandas)
-{: .skills-icons}
-
-- Pandas & Scikit-learn
-- Data Visualization
-- Statistical Analysis
-{: .skills-list}
-</div>
-</div>
-
-## Academic Excellence 🎓
-{: .section-title}
-
-<div class="stats-grid" markdown="1">
-<div class="stats-card" markdown="1">
-### Concordia University
-{: .stats-title}
-
-**4.3/4.3** CGPA
-{: .stats-highlight}
-
-MSc Computer Science
-{: .stats-subtitle}
-</div>
-
-<div class="stats-card" markdown="1">
-### Certifications
-{: .stats-title}
-
-**96.07%** Stanford ML
-{: .stats-highlight}
-
-Deep Learning Specialist
-{: .stats-subtitle}
-</div>
-
-<div class="stats-card" markdown="1">
-### Research Impact
-{: .stats-title}
-
-**2024** Graduate Scholar
-{: .stats-highlight}
-
-Published Researcher
-{: .stats-subtitle}
-</div>
-</div>
-
-## Let's Connect 🤝
-{: .section-title #connect}
-
-<div class="social-links" markdown="1">
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vasudev-sharma-341171256/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vasudev-Sharma-13)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vsharma13.1998@gmail.com)
-{: .social-badges}
-</div>
-</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
