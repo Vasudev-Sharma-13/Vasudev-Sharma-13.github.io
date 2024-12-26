@@ -1,0 +1,53 @@
+# Site settings
+title: Vasudev Sharma
+description: ML Researcher & Software Engineer
+baseurl: ""
+url: "https://vasudev-sharma-13.github.io"
+
+# Theme settings
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+- jekyll-seo-tag
+
+# Custom settings
+show_downloads: false
+google_analytics: # Add your Google Analytics tracking ID here
+
+# Custom styles
+style: |
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    color: #1a202c;
+    background-color: #f7fafc;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  a {
+    color: #3182ce;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2c5282;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .bg-white {
+    background-color: white;
+  }
