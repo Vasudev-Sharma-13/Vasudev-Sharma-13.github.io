@@ -3,89 +3,155 @@ layout: default
 title: Vasudev Sharma - ML Researcher & Software Engineer
 ---
 
-# Vasudev Sharma
-{: .text-center .text-6xl .font-bold .py-8}
+<div class="hero-section" markdown="1">
+  <div class="hero-content" markdown="1">
+  # Vasudev Sharma
+  {: .hero-title}
 
-> ML Researcher & Software Engineer | MSc Computer Science @Concordia University
-{: .text-center .text-xl .text-gray-600 .mb-12}
+  ### ML Researcher & Software Engineer
+  {: .hero-subtitle}
 
-## Research Experience 🔬
-{: .text-4xl .font-bold .mb-8}
+  > Transforming complex data into intelligent solutions
+  {: .hero-tagline}
 
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-  <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-500">
-    <h3 class="text-xl font-bold mb-4">Multimodal Image Analysis</h3>
-    <p>Fine-tuned vision-language models for histopathology analysis at Atlas Analytics Lab. Enhanced computational efficiency through transformer integration.</p>
-  </div>
-
-  <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-500">
-    <h3 class="text-xl font-bold mb-4">Cancer Screening AI</h3>
-    <p>Developed AI-powered screening tool (86% accuracy) for colorectal carcinoma diagnosis using self-supervised learning (DINO).</p>
-  </div>
-
-  <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-500">
-    <h3 class="text-xl font-bold mb-4">Image Synthesis</h3>
-    <p>Built conditional GAN with self-attention for sketch-guided image synthesis. Achieved MSE score of 3.79 on DigiFace-1M dataset.</p>
+  [View Research](#research){: .hero-button} [Connect](#connect){: .hero-button}
   </div>
 </div>
 
-## Technical Expertise 🛠️
-{: .text-4xl .font-bold .mb-8}
+<div class="content-section" markdown="1">
+## Research Experience 🔬
+{: .section-title}
 
-<div class="bg-white p-8 rounded-lg shadow-lg mb-12">
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-    <div>
-      <h3 class="text-xl font-bold mb-4 text-blue-600">Machine Learning</h3>
-      - PyTorch & TensorFlow
-      - Hugging Face & MLFlow
-      - Computer Vision & GANs
-    </div>
-    <div>
-      <h3 class="text-xl font-bold mb-4 text-blue-600">Development</h3>
-      - Python, C++, Java
-      - Docker & AWS
-      - SLURM & Linux
-    </div>
-    <div>
-      <h3 class="text-xl font-bold mb-4 text-blue-600">Data Science</h3>
-      - Pandas & Scikit-learn
-      - Data Visualization
-      - Statistical Analysis
-    </div>
-  </div>
+<div class="card-grid" markdown="1">
+<div class="feature-card" markdown="1">
+### Multimodal Image Analysis
+{: .card-title}
+
+🏥 Atlas Analytics Lab
+{: .card-subtitle}
+
+- Fine-tuned vision-language models
+- Enhanced computational efficiency
+- Advanced histopathology analysis
+{: .card-list}
+</div>
+
+<div class="feature-card" markdown="1">
+### Cancer Screening AI
+{: .card-title}
+
+🤖 Kingston General Hospital
+{: .card-subtitle}
+
+- 86% accuracy in detection
+- Self-supervised learning (DINO)
+- Improved diagnosis efficiency
+{: .card-list}
+</div>
+
+<div class="feature-card" markdown="1">
+### Image Synthesis
+{: .card-title}
+
+🎨 Advanced GANs
+{: .card-subtitle}
+
+- Conditional GAN architecture
+- MSE score of 3.79
+- 166,665 image dataset
+{: .card-list}
+</div>
+</div>
+
+## Technical Arsenal ⚡
+{: .section-title}
+
+<div class="skills-section" markdown="1">
+<div class="skills-card" markdown="1">
+### Machine Learning
+{: .skills-title}
+
+![ML Skills](https://skillicons.dev/icons?i=pytorch,tensorflow)
+{: .skills-icons}
+
+- PyTorch & TensorFlow
+- Hugging Face & MLFlow
+- Computer Vision & GANs
+{: .skills-list}
+</div>
+
+<div class="skills-card" markdown="1">
+### Development
+{: .skills-title}
+
+![Dev Skills](https://skillicons.dev/icons?i=python,cpp,java)
+{: .skills-icons}
+
+- Python, C++, Java
+- Docker & AWS
+- SLURM & Linux
+{: .skills-list}
+</div>
+
+<div class="skills-card" markdown="1">
+### Data Science
+{: .skills-title}
+
+![Data Skills](https://skillicons.dev/icons?i=numpy,pandas)
+{: .skills-icons}
+
+- Pandas & Scikit-learn
+- Data Visualization
+- Statistical Analysis
+{: .skills-list}
+</div>
 </div>
 
 ## Academic Excellence 🎓
-{: .text-4xl .font-bold .mb-8}
+{: .section-title}
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-  <div class="bg-white p-6 rounded-lg shadow-lg">
-    <h3 class="text-xl font-bold mb-4">Education</h3>
-    - MSc Computer Science (CGPA: 4.3/4.3) - Concordia University
-    - BE Computer Engineering (CGPA: 9.45/10) - T.I.E.T.
-  </div>
-  <div class="bg-white p-6 rounded-lg shadow-lg">
-    <h3 class="text-xl font-bold mb-4">Certifications</h3>
-    - Stanford Machine Learning (96.07%)
-    - Deep Learning Specialization
-    - Python Programming (98.25%)
-  </div>
+<div class="stats-grid" markdown="1">
+<div class="stats-card" markdown="1">
+### Concordia University
+{: .stats-title}
+
+**4.3/4.3** CGPA
+{: .stats-highlight}
+
+MSc Computer Science
+{: .stats-subtitle}
 </div>
 
-## Recent Achievements 🏆
-{: .text-4xl .font-bold .mb-8}
+<div class="stats-card" markdown="1">
+### Certifications
+{: .stats-title}
 
-<div class="bg-white p-6 rounded-lg shadow-lg mb-12">
-- Engineering and Computer Science Graduate Scholarship (2024)
-- DRW Graduate Scholarship (2023)
-- Research Publication: "Statistical Approach for Extractive Text Summarization"
+**96.07%** Stanford ML
+{: .stats-highlight}
+
+Deep Learning Specialist
+{: .stats-subtitle}
 </div>
 
-## Let's Connect 📫
-{: .text-4xl .font-bold .mb-8}
+<div class="stats-card" markdown="1">
+### Research Impact
+{: .stats-title}
 
-<div class="flex justify-center space-x-8 mb-12">
-  <a href="https://www.linkedin.com/in/vasudev-sharma-341171256/" class="text-blue-600 hover:text-blue-800">LinkedIn</a>
-  <a href="https://github.com/Vasudev-Sharma-13" class="text-blue-600 hover:text-blue-800">GitHub</a>
-  <a href="mailto:vsharma13.1998@gmail.com" class="text-blue-600 hover:text-blue-800">Email</a>
+**2024** Graduate Scholar
+{: .stats-highlight}
+
+Published Researcher
+{: .stats-subtitle}
+</div>
+</div>
+
+## Let's Connect 🤝
+{: .section-title #connect}
+
+<div class="social-links" markdown="1">
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vasudev-sharma-341171256/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vasudev-Sharma-13)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vsharma13.1998@gmail.com)
+{: .social-badges}
+</div>
 </div>
