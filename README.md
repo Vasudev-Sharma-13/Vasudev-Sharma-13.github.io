@@ -1,82 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vasudev Sharma - ML Researcher & Software Engineer</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
-</head>
-<body class="bg-gray-100">
-    <nav class="bg-gray-800 text-white p-4">
-        <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-xl font-bold">Vasudev Sharma</h1>
-            <div class="space-x-4">
-                <a href="#about" class="hover:text-gray-300">About</a>
-                <a href="#research" class="hover:text-gray-300">Research</a>
-                <a href="#publications" class="hover:text-gray-300">Publications</a>
-                <a href="#contact" class="hover:text-gray-300">Contact</a>
-            </div>
-        </div>
-    </nav>
+---
+layout: default
+title: Vasudev Sharma - ML Researcher & Software Engineer
+---
 
-    <header class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-20">
-        <div class="container mx-auto text-center">
-            <h1 class="text-4xl font-bold mb-4">Vasudev Sharma</h1>
-            <p class="text-xl">Machine Learning Researcher & Software Engineer</p>
-            <p class="mt-4">Master's Student at Concordia University</p>
-        </div>
-    </header>
+# Vasudev Sharma
+{: .text-center .text-6xl .font-bold .py-8}
 
-    <main class="container mx-auto py-8 px-4">
-        <section id="about" class="mb-12">
-            <h2 class="text-3xl font-bold mb-6">About Me</h2>
-            <div class="bg-white rounded-lg shadow-lg p-6">
-                <p class="mb-4">Currently pursuing my Master's in Computer Science at Concordia University with a perfect CGPA of 4.3/4.3. I specialize in Machine Learning, Deep Learning, and Computer Vision, with a focus on multimodal image analysis and self-supervised learning.</p>
-            </div>
-        </section>
+> ML Researcher & Software Engineer | MSc Computer Science @Concordia University
+{: .text-center .text-xl .text-gray-600 .mb-12}
 
-        <section id="research" class="mb-12">
-            <h2 class="text-3xl font-bold mb-6">Research Experience</h2>
-            <div class="grid md:grid-cols-2 gap-6">
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-bold mb-2">Multimodal Image Analysis</h3>
-                    <p>Working on vision-language models for histopathology image analysis at Atlas Analytics Lab</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-lg p-6">
-                    <h3 class="text-xl font-bold mb-2">Cancer Screening Tool</h3>
-                    <p>Developed AI-powered cancer screening using self-supervised learning with 86% accuracy</p>
-                </div>
-            </div>
-        </section>
+## Research Experience 🔬
+{: .text-4xl .font-bold .mb-8}
 
-        <section id="publications" class="mb-12">
-            <h2 class="text-3xl font-bold mb-6">Publications & Achievements</h2>
-            <div class="bg-white rounded-lg shadow-lg p-6">
-                <ul class="list-disc list-inside space-y-2">
-                    <li>Published research on "Statistical Approach for Extractive Text Summarization"</li>
-                    <li>Engineering and Computer Science Graduate Scholarship (2024)</li>
-                    <li>DRW Graduate Scholarship (2023)</li>
-                </ul>
-            </div>
-        </section>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+  <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-500">
+    <h3 class="text-xl font-bold mb-4">Multimodal Image Analysis</h3>
+    <p>Fine-tuned vision-language models for histopathology analysis at Atlas Analytics Lab. Enhanced computational efficiency through transformer integration.</p>
+  </div>
 
-        <section id="contact" class="mb-12">
-            <h2 class="text-3xl font-bold mb-6">Contact</h2>
-            <div class="bg-white rounded-lg shadow-lg p-6">
-                <p class="mb-4">Feel free to reach out for collaborations or discussions about ML/AI!</p>
-                <div class="space-y-2">
-                    <p>📧 Email: vsharma13.1998@gmail.com</p>
-                    <p>💼 LinkedIn: <a href="https://www.linkedin.com/in/vasudev-sharma-341171256/" class="text-blue-600 hover:text-blue-800">Vasudev Sharma</a></p>
-                    <p>💻 GitHub: <a href="https://github.com/Vasudev-Sharma-13" class="text-blue-600 hover:text-blue-800">Vasudev-Sharma-13</a></p>
-                </div>
-            </div>
-        </section>
-    </main>
+  <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-500">
+    <h3 class="text-xl font-bold mb-4">Cancer Screening AI</h3>
+    <p>Developed AI-powered screening tool (86% accuracy) for colorectal carcinoma diagnosis using self-supervised learning (DINO).</p>
+  </div>
 
-    <footer class="bg-gray-800 text-white py-6">
-        <div class="container mx-auto text-center">
-            <p>© 2024 Vasudev Sharma. All rights reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+  <div class="bg-white p-6 rounded-lg shadow-lg border-t-4 border-blue-500">
+    <h3 class="text-xl font-bold mb-4">Image Synthesis</h3>
+    <p>Built conditional GAN with self-attention for sketch-guided image synthesis. Achieved MSE score of 3.79 on DigiFace-1M dataset.</p>
+  </div>
+</div>
+
+## Technical Expertise 🛠️
+{: .text-4xl .font-bold .mb-8}
+
+<div class="bg-white p-8 rounded-lg shadow-lg mb-12">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+      <h3 class="text-xl font-bold mb-4 text-blue-600">Machine Learning</h3>
+      - PyTorch & TensorFlow
+      - Hugging Face & MLFlow
+      - Computer Vision & GANs
+    </div>
+    <div>
+      <h3 class="text-xl font-bold mb-4 text-blue-600">Development</h3>
+      - Python, C++, Java
+      - Docker & AWS
+      - SLURM & Linux
+    </div>
+    <div>
+      <h3 class="text-xl font-bold mb-4 text-blue-600">Data Science</h3>
+      - Pandas & Scikit-learn
+      - Data Visualization
+      - Statistical Analysis
+    </div>
+  </div>
+</div>
+
+## Academic Excellence 🎓
+{: .text-4xl .font-bold .mb-8}
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+  <div class="bg-white p-6 rounded-lg shadow-lg">
+    <h3 class="text-xl font-bold mb-4">Education</h3>
+    - MSc Computer Science (CGPA: 4.3/4.3) - Concordia University
+    - BE Computer Engineering (CGPA: 9.45/10) - T.I.E.T.
+  </div>
+  <div class="bg-white p-6 rounded-lg shadow-lg">
+    <h3 class="text-xl font-bold mb-4">Certifications</h3>
+    - Stanford Machine Learning (96.07%)
+    - Deep Learning Specialization
+    - Python Programming (98.25%)
+  </div>
+</div>
+
+## Recent Achievements 🏆
+{: .text-4xl .font-bold .mb-8}
+
+<div class="bg-white p-6 rounded-lg shadow-lg mb-12">
+- Engineering and Computer Science Graduate Scholarship (2024)
+- DRW Graduate Scholarship (2023)
+- Research Publication: "Statistical Approach for Extractive Text Summarization"
+</div>
+
+## Let's Connect 📫
+{: .text-4xl .font-bold .mb-8}
+
+<div class="flex justify-center space-x-8 mb-12">
+  <a href="https://www.linkedin.com/in/vasudev-sharma-341171256/" class="text-blue-600 hover:text-blue-800">LinkedIn</a>
+  <a href="https://github.com/Vasudev-Sharma-13" class="text-blue-600 hover:text-blue-800">GitHub</a>
+  <a href="mailto:vsharma13.1998@gmail.com" class="text-blue-600 hover:text-blue-800">Email</a>
+</div>
